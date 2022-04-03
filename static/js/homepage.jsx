@@ -1,7 +1,13 @@
 'use strict';
 
 function Homepage() {
-  return <div>This component needs to be implemented.</div>;
+  return (
+  <div>
+    <h1>Welcome once more.</h1>
+    <a href="/cards">Check out these cards!</a>
+    <img src="/static/img/balloonicorn.jpg"/>
+  </div>
+  );
 }
 
 ReactDOM.render(<Homepage />, document.querySelector('#app'));
